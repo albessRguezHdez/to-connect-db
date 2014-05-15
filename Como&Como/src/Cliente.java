@@ -222,7 +222,7 @@ public class Cliente extends javax.swing.JFrame {
             con = Principal.conexion(con);
             String insertar = "insert into Cliente values(?,?,?,?,?,?,?,?)";
             PreparedStatement estado = con.prepareStatement(insertar);
-            estado.setString(1, CodCliente.getText());
+            estado.setInt(1, Integer.parseInt(CodCliente.getText()));
             estado.setString(2, NomCliente.getText());
             estado.setString(3, APClie.getText());
             estado.setString(4, AMClie.getText());
@@ -253,7 +253,7 @@ public class Cliente extends javax.swing.JFrame {
         marco.pack();
         try{
             con=Principal.conexion(con);
-            String eliminar = ("delete from Cliente where CodigoCliente = '" + CodCliente.getText() + "'");
+            String eliminar = ("delete from Cliente where CodigoCliente = '" + Integer.parseInt(CodCliente.getText()) + "'");
             PreparedStatement estado = con.prepareStatement (eliminar);
             estado.execute();
             estado.close();
@@ -273,7 +273,7 @@ public class Cliente extends javax.swing.JFrame {
             con=Principal.conexion(con);
             //Todos los campos a modificar, en este caso solo modificamos el codigo del cliente
             //String modificar = ("update Cliente set CodigoCliente ='"+ CodCliente.getText()+ "',NombreCliente='"+ NomCliente.getText()+"',APCliente='"+ APClie.getText()+"',AMCliente='"+ AMClie.getText()+"',TelefonoCliente='"+ Integer.parseInt(TelClie.getText())+"',CalleCliente='"+ CalleClie.getText()+"',ColoniaCliente='"+ ColoniaClie.getText()+"',NumeroCliente='"+ NumCasaClie.getText()+"where CodigoCliente ='"+ CodCliente.getText()+ "'");
-            String modificar = ("update Cliente set NombreCliente='"+ NomCliente.getText()+"',APCliente='"+ APClie.getText()+"',AMCliente='"+ AMClie.getText()+"',TelefonoCliente='"+ Integer.parseInt(TelClie.getText())+"',CalleCliente='"+ CalleClie.getText()+"',ColoniaCliente='"+ ColoniaClie.getText()+"',NumeroCliente='"+ NumCasaClie.getText()+"' where CodigoCliente ='"+ CodCliente.getText()+ "'");
+            String modificar = ("update Cliente set NombreCliente='"+ NomCliente.getText()+"',APCliente='"+ APClie.getText()+"',AMCliente='"+ AMClie.getText()+"',TelefonoCliente='"+ Integer.parseInt(TelClie.getText())+"',CalleCliente='"+ CalleClie.getText()+"',ColoniaCliente='"+ ColoniaClie.getText()+"',NumeroCliente='"+ Integer.parseInt(NumCasaClie.getText())+"' where CodigoCliente ='"+ Integer.parseInt(CodCliente.getText())+ "'");
             PreparedStatement estado = con.prepareStatement(modificar);
             estado.execute();
             estado.close();
