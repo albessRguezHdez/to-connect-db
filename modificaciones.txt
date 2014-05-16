@@ -1,0 +1,23 @@
+Modulos listos:
+
+25 -> mostrar
+50 -> guardar
+75 -> eliminar
+100 -> modificar
+
+CLIENTE => 100%
+EMPLEADO => 100%
+FACTURA =>
+PEDIDO => 100%
+PLATO => 100%
+CENTRO => 75%
+POBLACION =>
+
+REGISTROS MODIFICADOS EN LA BASE DE DATOS:
+
+CLIENTE -> inconsistencia en tipos de datos
+PEDIDO -> inconsistencia en tipos de datos
+FACTURA -> inconsistencia en tipos de datos
+
+EMPLEADO -> inconsistencia en tipos de datos
+PEDIDO -> inconsistencia en tipos de datos
