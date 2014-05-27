@@ -1,0 +1,7 @@
+NUMEROPLATO,NOMBREPLATO,DESCRIPCIONPLATO,PRECIOPLATO
+1,platillo,modificando la descripcion,40
+6,nAMEmodif,pruebaMODIF,50
+2,platito,descripcion del plato,100
+3,platittito,descripcion del plato,200
+4,platittitito,descripcion del plato,250
+5,plato exitoso,excelente ya funcionan todos los botones,100

@@ -1,0 +1,4 @@
+CODIGOCENTRO,NOMBRECENTRO,CALLECENTRO,COLONIACENTRO,NUMEROCENTRO,POBLACIONCENTRO,TELEFONOCENTRO,ESTADO
+1,centro,calle,colonia,12,100,1232024,estado
+3,centrotres,calletres,coloniatres,12,100,1232024,estadotres
+2,funciontodos,funcionantodos,coloniatres,12,100,1232024,estadotres

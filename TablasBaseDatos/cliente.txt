@@ -1,0 +1,5 @@
+CODIGOCLIENTE,NOMBRECLIENTE,APCLIENTE,AMCLIENTE,TELEFONOCLIENTE,CALLECLIENTE,COLONIACLIENTE,NUMEROCLIENTE
+1,nombre              ,apellidop           ,apellidom           ,8123456,calle                         ,colonia                       ,2
+2,segundo             ,segundop            ,segundom            ,8123456,calle                         ,colonia                       ,2
+5,todasFunc           ,todasFunc           ,todasFunc           ,123294,todaslasFunc                  ,todaslasFunc                  ,4
+3,tercero             ,tercerop            ,tercerom            ,8123456,calle                         ,colonia                       ,2
