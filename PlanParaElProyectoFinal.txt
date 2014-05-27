@@ -1,0 +1,22 @@
+FRAGMENTACIÓN
+
+1)	Hacer el proceso de fragmentación horizontal y horizontal derivada para las tablas que lo requieran – documento-.
+2)	Hacer el proceso de fragmentación vertical para las tablas que lo requieran – documento-
+3)	Hacer el proceso de fragmentación mixta para las tablas que lo requieran – documento-
+4)	Esquema fragmentado – documento-
+5)	Esquema de asignación y replicación – documento-
+6)	Implementar los fragmentos en ORACLE, en el sitio que les corresponda y deberá estar conectado en red.
+
+CONSULTAS
+
+1)	Las consultas en álgebra relacional.
+2)	Los árboles correspondientes.
+3)	Aplicar criterios 1 y 2.
+4)	Hacer la consulta en AR final correspondiente.
+5)	Implementar las consultas en ORACLE (locales y globales).
+
+TRANSACCIONES
+
+Implementar una transacción (commit y rollback) en alguna parte que detectes que sea relevante implementarla.
+
+Nos vemos del lunes 2 de junio al viernes 6 de junio de 9am a 12pm en la fac

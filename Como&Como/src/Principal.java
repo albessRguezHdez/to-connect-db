@@ -180,7 +180,7 @@ public class Principal extends javax.swing.JFrame {
             //inicialización de la conexión a jdbc
             Class.forName("oracle.jdbc.OracleDriver");
             //driver manejador de la conexión a la bd, con los atributos de nombre de usuario y contraseña
-            con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "sysdba", "123");
+            con=DriverManager.getConnection("jdbc:oracle:thin:@172.72.39.103:1521:XE", "sysdba", "123");
         }
         catch (ClassNotFoundException e){
             System.out.println("No se pudo realizar la conexion");
